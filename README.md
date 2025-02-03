@@ -1,8 +1,33 @@
-# React + Vite
+# 3D Checkers Game 🎮♟️  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **3D Checkers game** built with **Three.js** and **Draughts.js**, allowing users to interact with checkers pieces on a dynamic board.  
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Checkers 3D](https://checkers3js.netlify.app/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Game Preview](https://github.com/user-attachments/assets/dfa30ea8-9b40-4eda-aae0-c0441df8bac9)
+ 
+
+## 🚀 Features  
+- **Interactive 3D checkers board**  
+- **Draggable pieces** for gameplay  
+- **Realistic lighting and shadows**  
+- **OrbitControls for smooth camera movement**  
+
+## 🛠️ Technologies Used  
+- [Vite](https://vitejs.dev/) – For fast development and build setup  
+- [Three.js](https://threejs.org/) – For rendering the 3D board and pieces  
+- [GLTFLoader](https://threejs.org/docs/#examples/en/loaders/GLTFLoader) – For loading the 3D checkers piece
+
+
+## 📂 Project Structure  
+/public
+├── checker.glb # 3D model for checkers piece
+/src
+├── main.js # Core game logic
+├── styles.css # Styles for the canvas
+├── index.html # Main HTML file
+
+
+
+
+
