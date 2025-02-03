@@ -75,7 +75,7 @@ function addCheckers(checkMesh) {
 
 
 const loader = new GLTFLoader();
-loader.load('../public/checker.glb', function (gltf) {
+loader.load('/checker.glb', function (gltf) {
   const checkerMesh = gltf.scene.children.find((child) => child.name === 'Cylinder');
   checkerMesh.scale.set(checkerMesh.scale.x * 0.5, checkerMesh.scale.y * 0.5, checkerMesh.scale.z * 0.5);
   checkerMesh.position.y += checkerMesh.scale.y;
