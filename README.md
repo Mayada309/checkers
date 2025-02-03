@@ -19,13 +19,6 @@ A **3D Checkers game** built with **Three.js** and **Draughts.js**, allowing use
 - [GLTFLoader](https://threejs.org/docs/#examples/en/loaders/GLTFLoader) – For loading the 3D checkers piece
 
 
-## 📂 Project Structure  
-/public
-├── checker.glb # 3D model for checkers piece
-/src
-├── main.js # Core game logic
-├── styles.css # Styles for the canvas
-├── index.html # Main HTML file
 
 
 
